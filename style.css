@@ -407,3 +407,94 @@ left: 478px; */
     background-size: cover;
 
 }
+.doubts_title{
+    padding-top: 3vw;
+    background-color:#121212 ;
+    width: 100vw;
+    font-size: 2.5vw;
+    font-weight: bold;
+    font-family: Arial;
+    display: block;
+    text-align: center;
+    padding-bottom: 2vw;
+}
+.doubts_title .greytext{
+    color: grey;
+    margin-left: 0.6vw;
+}
+.doubts_title .whitetext{
+    color: white;
+    margin-left: 0.6vw;
+}
+.doubtbox{
+    width: 67%;
+    margin-top: 3vw;
+    background-color: black;
+    border: 0.2vw solid rgb(134, 136, 222);
+    border-radius: 7px;
+    text-align: left;
+    margin-left: 13%;
+    padding: 3vw;
+}
+hr{  
+    width: 98%;
+    margin-top: 1vw;
+}
+.doubtbox .doubt{
+    color: white;
+    font-size: 1.8vw;
+    margin-top: 1vw;
+}
+.doubtbox .answer{
+    display: none;
+    font-size: 1.5vw;
+    height: 5vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+}
+.fa-solid.fa-plus{
+margin-left: 19vw;
+cursor: pointer;
+}
+#footer{
+    display: grid;
+    grid-template-columns: 0.7fr 1.1fr 1.2fr 1fr 1.2fr 1fr 0.7fr;
+    background-color: black;
+    padding-top: 2vw;
+    position: relative;
+    width: 100vw;
+    height: 25vw;
+}
+#footer div{
+    padding: 2vw;
+}
+.details{
+    padding-left: 0.3vw !important;
+    padding-top: 1.5vw !important;
+    font-size: 1.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.details a{
+    text-decoration: none;
+}
+#footer_title{
+    position: absolute;
+    top: 4.5vw;
+    left:33.5vw;
+    font-size: 2.5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#redirect{
+    padding-top: 1vw !important;
+}
+#redirect p{
+    padding-top: 0.8vw;
+}
+.icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0vw;
+    margin: 0vw;
+    padding: 0vw !important;
+}
